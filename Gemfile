@@ -3,7 +3,7 @@ gemspec
 
 gem 'json', '~> 1.8.3'
 gem 'rest-client', '~> 2.0.0'
-gem 'activesupport',
+gem 'activesupport', '>= 5.1.2'
 gem 'coveralls', :require => false, :group => :test
 gem 'simplecov', '~> 0.10.0', :require => false, :group => :test
 gem 'simplecov-console', '~> 0.3.1', :require => false, :group => :test
